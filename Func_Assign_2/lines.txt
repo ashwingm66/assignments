@@ -1,0 +1,5 @@
+when we are done with operations to the file, we need to properly close the file.
+
+closing a file will free up the resources that were tied with the file and is done using Python close() method.
+
+python has a garbage collector to clean up unreferenced objects but, we must not rely on it to close the file.
